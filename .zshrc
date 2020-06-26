@@ -6,7 +6,7 @@ export NVM_DIR="$HOME/.nvm"
   [ -s "/usr/local/opt/nvm/etc/bash_completion" ] && . "/usr/local/opt/nvm/etc/bash_completion"  # This loads nvm bash_completion
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/aosepulveda/.oh-my-zsh"
+export ZSH="/Users/tyndorael/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
