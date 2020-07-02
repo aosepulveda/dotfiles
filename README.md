@@ -11,11 +11,6 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~
 ```
 Set ZSH_THEME="powerlevel10k/powerlevel10k" in ~/.zshrc.
 
-### Fonts
-Nerd Fonts
-
-<https://github.com/ryanoasis/nerd-fonts>
-
 ### Plugins
 
 <https://github.com/zsh-users/zsh-syntax-highlighting>
@@ -30,7 +25,11 @@ brew cask install postman
 brew cask install the-unarchiver
 brew cask install spotify
 brew cask install transmission
+brew cask install google-chrome
+brew cask install discord
 brew cask install vlc
+brew install nmap
+brew install htop
 ```
 
 ## NodeJS
