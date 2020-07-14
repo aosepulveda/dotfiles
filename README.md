@@ -4,6 +4,11 @@ This repository contains some configurations and applications for local developm
 
 ## zsh
 
+### Configuration files
+
+- .zshrc: current configuration.
+- powerleve9k.zshrc: old configuration.
+
 ### Theme
 
 ```bash
@@ -28,6 +33,7 @@ brew cask install transmission
 brew cask install google-chrome
 brew cask install discord
 brew cask install vlc
+brew cask install whatsapp
 brew install nmap
 brew install htop
 ```
