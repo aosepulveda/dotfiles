@@ -34,6 +34,7 @@ brew cask install google-chrome
 brew cask install discord
 brew cask install vlc
 brew cask install whatsapp
+brew cask install docker
 brew install nmap
 brew install htop
 ```
