@@ -8,8 +8,20 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+export PATH="$PATH:`pwd`/Documents/Tools/flutter/bin"
+
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/tyndorael/.oh-my-zsh"
+
+# FLUX
+export PATH=$PATH:$HOME/.fluxcd/bin
+
+# GOLANG
+export GOROOT="/usr/local/go"
+export PATH="$PATH:$GOROOT/bin"
+export GOPATH="/Users/tyndorael/Documents/Tools/golib"
+export PATH="$PATH:$GOPATH/bin"
+export GOPATH="$GOPATH:/Users/tyndorael/Documents/Development/kubernetes/arknights-tools"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
@@ -112,3 +124,15 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/local/bin/terraform terraform
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/tyndorael/Documents/Tools/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/tyndorael/Documents/Tools/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/tyndorael/Documents/Tools/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/tyndorael/Documents/Tools/google-cloud-sdk/completion.zsh.inc'; fi
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
