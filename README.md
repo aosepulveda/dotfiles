@@ -41,6 +41,8 @@ brew install htop
 
 ## NodeJS
 
+Reference <https://heynode.com/tutorial/install-nodejs-locally-nvm>
+
 ```bash
 brew install nvm
 nvm install node
